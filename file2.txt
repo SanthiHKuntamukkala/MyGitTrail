@@ -1,0 +1,19 @@
+ckage com.JSONMappingObject;
+
+import java.io.File;
+import java.io.IOException;
+
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
+		
+		ObjectMapper objectmapper = new ObjectMapper();
+		Employee employee = objectmapper.readValue(new File("C:\\Users\\Harshu\\eclipse-workspace\\JSONMappingObject\\src\\Data\\Object.json"), Employee.class);
+	System.out.println(employee);
+	}
+}
+
