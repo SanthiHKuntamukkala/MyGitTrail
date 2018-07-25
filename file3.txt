@@ -1,0 +1,52 @@
+ckage com.JSONMappingObject;
+
+import java.util.Arrays;
+
+public class Address {
+
+	private String street;
+	private String city;
+	private String state;
+	private boolean permanentaddress;
+	private String[] programmingLang;
+	public String getStreet() {
+		return street;
+	}
+	public void setStreet(String street) {
+		this.street = street;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public String getState() {
+		return state;
+	}
+	public void setState(String state) {
+		this.state = state;
+	}
+	public boolean isPermanentaddress() {
+		return permanentaddress;
+	}
+	public void setPermanentaddress(boolean permanentaddress) {
+		this.permanentaddress = permanentaddress;
+	}
+	public String[] getProgrammingLang() {
+		return programmingLang;
+	}
+	public void setProgrammingLang(String[] programmingLang) {
+		this.programmingLang = programmingLang;
+	}
+	@Override
+	public String toString() {
+		return "Address [street=" + street + ", city=" + city + ", state=" + state + ", permanentaddress="
+				+ permanentaddress + ", programmingLang=" + Arrays.toString(programmingLang) + "]";
+	}
+	
+	public Address() {
+	
+	}
+}
+
