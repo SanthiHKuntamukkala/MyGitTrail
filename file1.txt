@@ -1,0 +1,12 @@
+{
+"id":1,
+"firstName": "Harshitha",
+"lastName": "Kuntamukkala",
+"email" : "harshukuntamukkala@gmail.com",
+"address" : {"street":"Gator drive",
+				"city": "Orlando",
+				"state": "Florida",
+				"permanentaddress": true,
+				"programmingLang": ["Java", "AWS", "Spring"]
+}
+}
